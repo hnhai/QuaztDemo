@@ -1,8 +1,8 @@
 # Start Service
-{{ user}} ALL=NOPASSWD:/bin/systemctl start app
+{{ user}} ALL=NOPASSWD:/bin/systemctl start service_name
 
 # Stop Service
-{{ user }} ALL=NOPASSWD:/bin/systemctl stop app
+{{ user }} ALL=NOPASSWD:/bin/systemctl stop service_name
 
 # Restart Service
-{{ user }} ALL=NOPASSWD:/bin/systemctl restart app
+{{ user }} ALL=NOPASSWD:/bin/systemctl restart service_name
